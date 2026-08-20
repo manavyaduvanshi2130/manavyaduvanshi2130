@@ -56,7 +56,6 @@
 
 # 🧑‍💻 Coding Profiles
 
-# 🧑‍💻 Coding Profiles
 
 <p align="center">
 
