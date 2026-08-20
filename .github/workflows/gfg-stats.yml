@@ -16,7 +16,7 @@ jobs:
       - name: Fetch GFG stats and generate SVG
         run: |
           mkdir -p profile
-          curl -s "https://geeks-for-geeks-stats-api.vercel.app/?raw=y&userName=rahulyadavjqlw" -o gfg.json
+          curl -s "https://geeks-for-geeks-stats-api.vercel.app/?raw=y&userName=rahulyadavjq1w" -o gfg.json
           cat gfg.json
           python3 - <<'EOF'
           import json
