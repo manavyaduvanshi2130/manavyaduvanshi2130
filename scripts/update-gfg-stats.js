@@ -1,7 +1,7 @@
 const https = require("https");
 const fs = require("fs");
 
-const username = "rahulyadavjq1w";
+const username = "@rahulyadavjq1w";
 const url = `https://geeks-for-geeks-stats-api.vercel.app/?raw=y&userName=${username}`;
 
 https.get(url, (res) => {
