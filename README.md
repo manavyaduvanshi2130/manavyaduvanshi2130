@@ -56,9 +56,26 @@
 
 # 🧑‍💻 Coding Profiles
 
+# 🧑‍💻 Coding Profiles
+
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/manav_yaduvanshi_2130?theme=tokyonight&font=Fira%20Code&ext=heatmap" alt="LeetCode Stats" height="200"/>
-     <img src="./profile/gfg-stats.svg" alt="GeeksforGeeks Stats" height="200"/>
+
+  <a href="https://leetcode.com/u/manav_yaduvanshi_2130/" target="_blank">
+    <img
+      src="https://leetcard.jacoblin.cool/manav_yaduvanshi_2130?theme=tokyonight&font=Fira%20Code&ext=heatmap"
+      alt="LeetCode Stats"
+      height="200"
+    />
+  </a>
+
+  <a href="https://www.geeksforgeeks.org/user/rahulyadavjq1w/" target="_blank">
+    <img
+      src="./profile/gfg-stats.svg"
+      alt="GeeksforGeeks Stats"
+      height="200"
+    />
+  </a>
+
 </p>
 
 ---
