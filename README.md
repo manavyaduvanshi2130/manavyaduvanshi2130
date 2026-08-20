@@ -32,9 +32,7 @@
 # 🚀 Tech Stack
 
 <p align="center">
-
 <img src="https://skillicons.dev/icons?i=python,fastapi,tensorflow,pytorch,docker,mysql,git,github,linux,vscode"/>
-
 </p>
 
 ---
@@ -42,11 +40,8 @@
 # 📊 GitHub Stats
 
 <p align="center">
-
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=manavyaduvanshi2130&show_icons=true&theme=tokyonight"/>
-
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=manavyaduvanshi2130&layout=compact&theme=tokyonight"/>
-
 </p>
 
 ---
@@ -54,9 +49,16 @@
 # 🔥 GitHub Streak
 
 <p align="center">
-
 <img src="https://streak-stats.demolab.com?user=manavyaduvanshi2130&theme=tokyonight"/>
+</p>
 
+---
+
+# 🧑‍💻 Coding Profiles
+
+<p align="center">
+<img src="https://leetcard.jacoblin.cool/manav_yaduvanshi_2130?theme=tokyonight&font=Fira%20Code&ext=heatmap" alt="LeetCode Stats" height="200"/>
+<img src="https://geeks-for-geeks-stats-api.vercel.app/?userName=rahulyadavjqlw" alt="GeeksforGeeks Stats" height="200"/>
 </p>
 
 ---
@@ -64,9 +66,7 @@
 # 💻 Languages
 
 <p align="center">
-
 <img src="https://skillicons.dev/icons?i=python,cpp,c,mysql"/>
-
 </p>
 
 ---
@@ -74,9 +74,7 @@
 # 🛠 Frameworks & Tools
 
 <p align="center">
-
 <img src="https://skillicons.dev/icons?i=fastapi,git,github,docker,vscode,linux"/>
-
 </p>
 
 ---
@@ -84,15 +82,10 @@
 # 🎯 Current Focus
 
 ✅ Artificial Intelligence
-
 ✅ Machine Learning
-
 ✅ Deep Learning
-
 ✅ FastAPI
-
 ✅ Backend Development
-
 ✅ Open Source
 
 ---
@@ -100,11 +93,8 @@
 # 📌 Featured Projects
 
 🚀 GitHub Repository Scanner
-
 🥛 Aapni Dairy App
-
 🤖 AI Projects
-
 📈 Machine Learning Projects
 
 ---
@@ -112,9 +102,7 @@
 # 📈 Contribution Graph
 
 <p align="center">
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=manavyaduvanshi2130&theme=tokyo-night"/>
-
 </p>
 
 ---
@@ -122,15 +110,12 @@
 # 📫 Connect With Me
 
 <p align="center">
-
 <a href="https://www.linkedin.com/in/rahul-yadav-816847339/">
 <img src="https://skillicons.dev/icons?i=linkedin"/>
 </a>
-
 <a href="mailto:rahulyadavmlsu2130@gmail.com">
 <img src="https://skillicons.dev/icons?i=gmail"/>
 </a>
-
 </p>
 
 ---
