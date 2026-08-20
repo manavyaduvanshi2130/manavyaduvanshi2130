@@ -58,7 +58,7 @@
 
 <p align="center">
   <img src="https://leetcard.jacoblin.cool/manav_yaduvanshi_2130?theme=tokyonight&font=Fira%20Code&ext=heatmap" alt="LeetCode Stats" height="200"/>
-  <img src="https://gfgstatscard.vercel.app/rahulyadavjq1w" alt="GeeksforGeeks Stats" height="200"/>
+     <img src="./profile/gfg-stats.svg" alt="GeeksforGeeks Stats" height="200"/>
 </p>
 
 ---
