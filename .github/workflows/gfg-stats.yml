@@ -1,0 +1,52 @@
+name: Update GFG Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # runs once a day at midnight UTC
+  workflow_dispatch:        # lets you trigger it manually anytime
+
+jobs:
+  update-gfg:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch GFG stats and generate SVG
+        run: |
+          mkdir -p profile
+          curl -s "https://geeks-for-geeks-stats-api.vercel.app/?raw=y&userName=rahulyadavjqlw" -o gfg.json
+          cat gfg.json
+          python3 - <<'EOF'
+          import json
+
+          with open("gfg.json") as f:
+              data = json.load(f)
+
+          solved = data.get("totalProblemsSolved", "N/A")
+          school = data.get("school", "N/A")
+          basic = data.get("basic", "N/A")
+          easy = data.get("easy", "N/A")
+          medium = data.get("medium", "N/A")
+          hard = data.get("hard", "N/A")
+
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="400" height="150">
+            <rect width="100%" height="100%" fill="#0d1117" rx="10"/>
+            <text x="20" y="30" fill="#2F8D46" font-size="20" font-family="monospace" font-weight="bold">GeeksforGeeks Stats</text>
+            <text x="20" y="60" fill="#ffffff" font-size="16" font-family="monospace">Total Solved: {solved}</text>
+            <text x="20" y="85" fill="#58a6ff" font-size="14" font-family="monospace">Easy: {easy}  Medium: {medium}  Hard: {hard}</text>
+            <text x="20" y="110" fill="#8b949e" font-size="12" font-family="monospace">School: {school}  Basic: {basic}</text>
+          </svg>'''
+
+          with open("profile/gfg-stats.svg", "w") as f:
+              f.write(svg)
+          EOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/gfg-stats.svg
+          git commit -m "Update GFG stats" || exit 0
+          git push
