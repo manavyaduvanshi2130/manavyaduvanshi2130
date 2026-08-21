@@ -37,14 +37,6 @@
 
 ---
 
-# 🔥 GitHub Streak
-
-<p align="center">
-<img src="https://streak-stats.demolab.com?user=manavyaduvanshi2130&theme=tokyonight"/>
-</p>
-
----
-
 # 🧑‍💻 Coding Profiles
 
 
