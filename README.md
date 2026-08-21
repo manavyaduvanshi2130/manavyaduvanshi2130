@@ -80,21 +80,21 @@
 
 # 🎯 Current Focus
 
-✅ Artificial Intelligence
-✅ Machine Learning
-✅ Deep Learning
-✅ FastAPI
-✅ Backend Development
-✅ Open Source
+- ✅ Artificial Intelligence
+- ✅ Machine Learning
+- ✅ Deep Learning
+- ✅ FastAPI
+- ✅ Backend Development
+- ✅ Open Source
 
 ---
 
 # 📌 Featured Projects
 
-🚀 GitHub Repository Scanner
-🥛 Aapni Dairy App
-🤖 AI Projects
-📈 Machine Learning Projects
+- 🚀 GitHub Repository Scanner
+- 🥛 Aapni Dairy App
+- 📈 Machine Learning Projects
+- 🤖 Many more 
 
 ---
 
