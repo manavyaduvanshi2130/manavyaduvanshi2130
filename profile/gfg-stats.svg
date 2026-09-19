@@ -84,7 +84,7 @@
       fill="none"
       stroke="#4caf50"
       stroke-width="18"
-      stroke-dasharray="146.29135802469136 515.2"
+      stroke-dasharray="139.93086419753087 515.2"
       transform="rotate(-90)"
     />
 
@@ -95,7 +95,7 @@
       stroke="#f5a623"
       stroke-width="18"
       stroke-dasharray="12.720987654320988 515.2"
-      stroke-dashoffset="-146.29135802469136"
+      stroke-dashoffset="-139.93086419753087"
       transform="rotate(-90)"
     />
 
@@ -106,7 +106,7 @@
       stroke="#ef4743"
       stroke-width="18"
       stroke-dasharray="0 515.2"
-      stroke-dashoffset="-159.01234567901236"
+      stroke-dashoffset="-152.65185185185186"
       transform="rotate(-90)"
     />
 
@@ -153,7 +153,7 @@
     />
 
     <text x="18" y="10">
-      Easy (23)
+      Easy (22)
     </text>
 
 
@@ -208,7 +208,7 @@
     font-size="10"
     fill="#484f58"
   >
-    Updated 2026-09-18
+    Updated 2026-09-19
   </text>
 
 </svg>
